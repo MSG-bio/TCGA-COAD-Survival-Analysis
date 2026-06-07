@@ -1,4 +1,3 @@
--- 1st Proeject
 
 -- 1)CREATE DATABASE and CLEAN DATA
 CREATE DATABASE COAD_clinical;
@@ -63,7 +62,7 @@ SELECT *
 FROM clinical_clean
 LIMIT 10;
 
--- 2) How many Patients are in each cancer stage and how many have died?
+-- 2) How many Patients are in each cancer stage, and how many have died?
 
 SELECT stage, COUNT(patient_id) AS total_patients,
     SUM(CASE WHEN vital_status = 'Dead' THEN 1 ELSE 0 END) AS dead_patients
