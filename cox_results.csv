@@ -1,0 +1,6 @@
+"variable","hazard_ratio","lower_95","upper_95","p_value"
+"stage_groupStage II",1.874,0.722,4.868,0.197
+"stage_groupStage III",3.758,1.458,9.682,0.0061
+"stage_groupStage IV",9.741,3.761,25.225,0
+"age",1.039,1.02,1.058,0
+"gendermale",0.932,0.621,1.398,0.7327
