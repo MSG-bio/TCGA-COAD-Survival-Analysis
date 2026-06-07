@@ -131,7 +131,7 @@ km_fit <- survfit(surv_object ~ stage_group,
 
 #Visuals 
 
-png("KM_survival_by_satge.png", width = 10, height = 8, units = "in", res = 300)
+png("KM_survival_by_stage.png", width = 10, height = 8, units = "in", res = 300)
 
 ggsurvplot(km_fit,
            data = clinical_clean,
